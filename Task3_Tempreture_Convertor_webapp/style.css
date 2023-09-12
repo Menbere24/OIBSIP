@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background-color: rgb(189, 206, 193);
+}
+
+#formTemp {
+    padding: 50px 80px;
+    min-height: 150px;
+    background-color: #726d7c;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+input{
+    width: 50px;
+}
+
+#temp{
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+}
+
+#temperature {
+    width: 120px;
+    height: 34px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+#submit {
+    width: 100px;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    font-size: 18px;
+    background-color: rgb(218 229 220);
+    padding: 5px;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+#submit:hover{
+    background-color: rgb(110, 55, 122);
+    cursor: pointer;
+}
+
+#result{
+    font-size: 20px;
+}

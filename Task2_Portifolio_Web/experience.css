@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100; 200; 300; 400; 600; 700; 800; 900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Spartan', sans-serif;
+}
+body {
+    width: 100%;
+    background-color: rgb(236, 241, 243);
+    }
+
+#header{
+    background-color: rgb(117, 29, 2);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+.header-img{
+    padding-right: 600px;
+}
+#header h1{
+   margin-right: 550px;
+   text-decoration: none;
+   color:#fff ;
+   font-size: 25px;
+
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#navbar li {
+    list-style: none;
+    padding:0 20px;
+    }
+    
+#navbar li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(228, 227, 240);
+        transition: 0.3s ease;
+    }
+#navbar li a:hover{
+    color: rgb(84, 153, 165);
+    
+
+}
+#navbar li a:active{
+    color: rgb(102, 162, 173);
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 80px;
+
+}
+   
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+   
+.text {
+    font-size: 70px;
+    
+}
+
+.vl {
+    border-left: 6px solid rgb(2, 2, 2);
+    height: 500px;
+  }
+
+P {
+    font-size: 20px;
+    color: #465b52;
+    margin: 15px 0 0 50px;
+    text-align: justify;
+ }
+ 
+
+ 
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+  }
+  
+ 
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+    
+  }
+  
+
+  .row,
+  .row > .column {
+    padding: 5px;
+    
+  }
+  
+  .row > .column > .content > p{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 0px;
+    
+  }
+
+  button{
+    background-color: #945436;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  
+  .column {
+    float:left;
+    width: 25%;
+    
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+    height: 250px;
+  }
+  
+ 
